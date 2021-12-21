@@ -1,6 +1,6 @@
 import json
 
-with open('ne-data.txt', 'r') as json_file:
+with open('data.txt', 'r') as json_file:
     data = json.load(json_file)
 
 with open('result.txt', 'w') as f:
